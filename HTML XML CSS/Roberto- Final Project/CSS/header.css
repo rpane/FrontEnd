@@ -1,0 +1,28 @@
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ nav li {
+     display: inline;
+     color: black;
+ }
+nav a{
+    color: black;
+
+}
+#list{
+  float:left;
+}
+footer{
+  background-color: #444444;
+  color: #f9f6ef;
+}
+@media only screen and (max-width: 380px) {
+  nav a{
+      font-size: 17px !important;
+
+  }
+}
+

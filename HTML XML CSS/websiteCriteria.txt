@@ -1,0 +1,22 @@
+WebSite Creation
+
+1. Analysis
+2. Planning
+3. Design
+4. Content
+5. Development
+6. Testing
+7. Deployment
+
+Resume Assignment
+	- Clean cut (Straight lines, order)
+	- Contact Info
+	- Work History
+	- About me
+	- Refrences
+
+Notes
+<meta name="viewport" content ="width=device-width, intial-scale=1.0"/>
+	- schooling
+ 	- download CV
+	- picture

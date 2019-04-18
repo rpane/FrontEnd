@@ -1,0 +1,27 @@
+h1{
+  color: red;
+}
+h3{
+  color: purple !important;
+}
+h3{
+  color: red;
+}
+.main_art{
+  color: red;
+}
+#top{
+  background-color: lightslategrey;
+}
+.main_art h3{
+  background-color: yellow;
+}
+.main_art > span > span{
+  color: green;
+}
+*{
+  background-color: lightslategrey;
+}
+.news > span{
+  padding-left: 20px;
+}

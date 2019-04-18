@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking</title>
+      <link rel="stylesheet" href="css/services_css.css">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/8E603135-6C55-B34D-92BE-D3450D14A6A9/main.js" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar bg-white fixed-top col-lg-12">
+        <div class="images">
+                    <img src="Images/icon.png" alt="Error" width="50">
+                    <img src="Images/Test.png" alt="Error" width="200">
+        </div>
+              <ul id="list">
+                  <li><a class="navbar-brand" href="index.html">Home</a></li>
+                  <li><a class="navbar-brand" href="booking.html">Book Now</a></li>
+                  <li><a class="navbar-brand" href="services.html">Services</a></li>
+                  <li><a class="navbar-brand" href="FAQbootStrap.html">FAQ</a></li>
+              </ul>
+          </nav>
+    </div> <!-- end header nav -->
+    <div class="row">
+      <div class="col-lg-12 heading-maia">
+        <div class="heading-text-maia">
+          <h5>HAVE FUN AT HAPPY PUPPY</h5>
+          <h1>We offer a lot of services!</h1>
+          <button class="btn btn-primary" id="custom" type="button" onclick="location.href='services.html'" name="button">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <form action="book.php" method="post" id="bookingForm" novalidate>
+           <h5>Book Now!</h5>
+           <p>If you would like to book one of our services, please contact us.</p>
+           <div class="form-group">
+             <label for="name">Name</label>
+             <input type="text" class="form-control" id="name" placeholder="Enter name">
+             <label for="email">Email address</label>
+             <input type="email" class="form-control" id="email" placeholder="Enter email">
+           </div>
+            <div class="form-check">
+             <input class="form-check-input" type="checkbox" id="dayCare">
+             <label class="form-check-label" for="dayCare">Day Care</label>
+             <br>
+             <input class="form-check-input" type="checkbox" id="boarding">
+             <label class="form-check-label" for="boarding">Dog Boarding</label>
+             <br>
+             <input class="form-check-input" type="checkbox" id="grooming">
+             <label class="form-check-label" for="grooming">Grooming</label>
+             <br>
+             <input class="form-check-input" type="checkbox" id="training">
+             <label class="form-check-label" for="training">Training</label>
+           </div> <!-- end form check div -->
+           <div class="form-group">
+             <label for="Message">Message</label>
+             <small id="messageHelp" class="form-text text-muted">If your pet needs any special accomodations, please let us know.</small>
+             <textarea class="form-control" id="Message"></textarea>
+           </div>
+           <button type="submit" class="btn">Submit</button>
+         </form>
+      </div> <!-- end form div class -->
+      <div class="col-lg-4">
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="dog1">
+              <div class="carousel-caption d-none d-md-block" id="caption1"></div>
+            </div>
+            <div class="carousel-item" id="dog2">
+              <div class="carousel-caption d-none d-md-block" id="caption2"></div>
+            </div>
+            <div class="carousel-item" id="dog3">
+              <div class="carousel-caption d-none d-md-block" id="caption3"></div>
+            </div>
+            <div class="carousel-item" id="dog4">
+              <div class="carousel-caption d-none d-md-block" id="caption4"></div>
+            </div>
+            <div class="carousel-item" id="dog5">
+              <div class="carousel-caption d-none d-md-block" id="caption5"></div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-2">
+
+      </div>
+    </div>
+	</div>
+<!-- Footer -->
+    <hr class="mt-5">
+    <!-- Footer -->
+    <footer class="page-footer font-small text-white mt-5">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Happy Puppy Daycare</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed quam et diam convallis hendrerit. Phasellus vehicula vestibulum leo, in laoreet ex tempor ac. Quisque.</p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><i class="fab fa-twitter"></i><a href="#!"> Twitter</a></p>
+          <p><i class="fab fa-instagram"></i><a href="#!"> Instagram</a></p>
+          <p><i class="fab fa-facebook"></i><a href="#!"> Facebook</a></p>
+          <p><i class="fab fa-snapchat-square"></i><a href="#!"> Snapchat</a></p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><i class="fa fa-home mr-3"></i>1250 Herron Road Dorval, QC H9S 1B4</p>
+          <p><i class="fa fa-envelope mr-3"></i> puppy@gmail.com</p>
+          <p><i class="fa fa-phone mr-3"></i> 1 (514) 555-5555</p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">FAQ</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p><a href="FAQbootStrap.html">Questions?</a></p>
+
+
+        </div>
+      </div>
+    </div>
+    </footer>
+<!-- Footer -->
+
+<script src="js/script.js"></script>
+</body>
+</html>

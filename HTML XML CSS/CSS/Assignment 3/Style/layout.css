@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    counter-reset: checked input;
+    overflow: hidden;
+}
+
+form {
+    position: relative;
+    top: 30%;
+    width: 400%;
+    transform: translateX(15%);
+    transform-style: preserve-3d;
+}
+
+input {
+    visibility: hidden;
+    position: absolute;
+    counter-increment: input;
+}
+
+input:checked {
+    counter-increment: checked;
+}
+
+label {
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    transform-origin: 0 105%;
+    /* ensures the targets are all transforming from the bottom */
+    transition: transform 1s cubic-bezier(0, 2, 0.2, 1);
+    /* cubic bezier curve will make the target bounce down and back a bit - see more at cubic-bezier.com */
+}
+
+
+/* COUNTER SECTION STYLES
+-----------------------------*/
+
+footer {
+    font: 22px monospace;
+    position:relative;
+    border-top: 10px solid navy;
+    padding-top: 30px;
+    margin-top: 10px;
+    top: 55%;
+    text-align: center;
+    background: white;
+    height: 270px;
+    width: 100%;
+}
+
+footer:before,
+footer:after {
+    display: block;
+}
+
+footer:before {
+    content: "score : " counter(checked);
+    font-size: 3em;
+}
+
+footer:after {
+    content: "remaining : " counter(input);
+}
+
+div {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+}
+
+a {
+    font-family: monospace;
+    display: block;
+    width: 200px;
+    border: 10px outset white;
+    text-decoration: none;
+    margin-right: 100px;
+}

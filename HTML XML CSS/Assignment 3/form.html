@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <!-- Roberto Panetta 0639300-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <form action="http://jac.stephmoreau.ca/0071/" method="post">
+    <header>
+      <h1>Form</h1>
+    </header>
+    <nav id="MainMen"><a href="Index.html">Home</a> | <a href="part2.html">Part 2</a></nav>
+    <hr>
+    <section>
+      <h4>Text Input</h4>
+      <input type="text" name="Text_Input" maxlength="75" placeholder="Max Length 75" required>
+      <br>
+
+      <h4>Email Input</h4>
+      <input type="email" name="Email" placeholder="Email" required>
+      <br>
+
+      <h4>Select</h4>
+      Choose your favourite color
+      <div class="custom-select" style="width:100px;">
+        <select name="Favourite_Color">
+        <option value="0">Purple</option>
+        <option value="1">Orange</option>
+        <option value="2" selected="selected">Green</option>
+        <option value="3">Blue</option>
+      </select>
+      </div>
+      <br>
+
+      <h4>Labels</h4>
+      <input type="radio" name="Car Choice" id="Audi" value="Audi">
+      <label for="Audi">Audi</label>
+      <br>
+      <input type="radio" name="Car Choice" id="Mercedes" value="Mercedes">
+      <label for="Mercedes">Mercedes</label>
+      <br>
+      <input type="radio" name="Car Choice" id="BMW" value="BMW" checked>
+      <label for="BMW">BMW</label>
+      <br>
+      <input type="radio" name="Car Choice" Id="Cadillac" value="Cadillac">
+      <label for="Cadillac">Cadillac</label>
+      <br>
+
+      <h4>Large Message Text Box</h4>
+      <textarea placeholder="Enter Text Here" rows="7" cols="50" name="Large Text Block"  required></textarea>
+      <br>
+
+      <!-- Hidden Field -->
+      <input type="hidden" name="Hidden Name" value="Roberto_Panetta">
+      <br>
+
+      <h4>Submit Button</h4>
+      <input type="submit">
+      <br>
+
+      <h4>Reset Button</h4>
+      <input type="reset">
+      <br>
+
+    </section>
+    <footer>
+      <hr>
+      <nav id="BotMainMen"><a href="Index.html">Home</a> | <a href="part2.html">Part 2</a></nav>
+      <br>
+      <small>&copy;Copyright by Roberto Panetta 2018-all rights reserved</small>
+    </footer>
+  </form>
+</body>
+
+</html>

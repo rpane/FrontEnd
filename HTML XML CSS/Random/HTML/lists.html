@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lists</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    thead {
+      color: red;
+    }
+
+    tbody {
+      color: blue;
+    }
+
+    tfoot {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Apples
+      <ul>
+        <li>Granny Smith</li>
+        <li>Red Delicious</li>
+      </ul>
+      <li>Banana</li>
+      <li>Cherries</li>
+      <li>Milk</li>
+  </ul>
+  <hr>
+  <ol>
+    <li>Elementry</li>
+    <li>High School</li>
+    <li>Cegep
+      <ul style="list-style-type:disc">
+        <li>John Abbott
+          <ol type="i" start="6">
+            <li>Sciences</li>
+            <li>Arts</li>
+            <li>History</li>
+            <li>English</li>
+          </ol>
+          <li>Vanier</li>
+      </ul>
+  </ol>
+  <hr>
+  <dl>
+    <dt style="color:red">XML</dt>
+    <dd>Extensible Markup Language</dd>
+    <dt style="color:red">HTML</dt>
+    <dd>Hyper Text Markup Language</dd>
+    <dt style="color:red">CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt style="color:red">Unordered Lists</dt>
+    <dt style="color:red">Ordered List</dt>
+    <dt style="color:red">Definition Lists</dt>
+    <dd>Ways of displaying lists on our websites</dd>
+  </dl>
+  <hr>
+  <table>
+    <caption>Costs</caption>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jello</td>
+        <td>3</td>
+        <td>3.00</td>
+      </tr>
+      <tr>
+        <td>Pasta</td>
+        <td>5</td>
+        <td>1.25</td>
+      </tr>
+      <tr>
+        <td>Melon</td>
+        <td>2</td>
+        <td>.75</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>10</td>
+        <td>16.75</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <table>
+    <caption>Monday Night</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="Col">8:00 pm </th>
+        <th scope="Col">8:30 pm </th>
+        <th scope="Col">9:00 pm </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Global</th>
+        <td colspan="2">Family Guy</td>
+        <td rowspan="2"> News</td>
+
+      </tr>
+      <tr>
+        <th scope="row">CTV</th>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <th scope="row">CBC</th>
+        <td></td>
+        <td rowspan="2" colspan="2">UFC</td>
+
+      </tr>
+      <tr>
+        <th scope="row">ABC</th>
+        <td></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">BBC</th>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tfoot>
+  </table>
+  <hr>
+  
+</body>
+
+</html>

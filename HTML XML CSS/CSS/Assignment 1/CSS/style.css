@@ -1,0 +1,49 @@
+@font-face {
+   font-family: Stingray;
+   src:url(../Fonts/Stingray.otf);
+}
+
+html{
+  background-color:cornflowerblue;
+}
+body{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Kavivanar', cursive;
+}
+header{
+  font-family: 'Stingray',cursive;
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  background-color:midnightblue ;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+figure{
+      display: block;
+      margin-left: 40%;
+      margin-right: 50%;
+      width: 50%;
+}
+#Schedule{
+  padding-right: 225px;
+  float: left;
+}
+#address{
+  float: left;
+}
+footer{
+  padding-top: 20px;
+  text-align: center;
+  clear: both;
+}
+#indent{
+  text-indent: 20px;
+}
+h3{
+  text-shadow: 0px 0px 20px white;
+}
+#form{
+  clear: both;
+}

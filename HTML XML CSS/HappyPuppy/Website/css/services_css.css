@@ -1,0 +1,429 @@
+/* ******************************************VICTORIA************* */
+.row{
+  margin-top: 25px;
+}
+
+hr{
+  width: 10%;
+  border-top: 1px solid black !important;
+}
+
+.heading{
+
+  height: 550px;
+  background-image: url("../img/animal.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  color:#f9f6ef;
+  margin:2px;
+}
+.heading h5,.prices_head h5{
+  font-family: "loto";
+  letter-spacing: 3px;
+  color: #008db1;
+}
+.heading h1,.prices_head h1,#row1 h1{
+  font-family: "permanent marker";
+  font-size: 55px;
+}
+
+.heading h1 span{
+  font-style: italic;
+}
+.heading-text{
+  position: relative;
+  top:35%;
+  margin-left: 25px;
+}
+
+#custom{
+  background-color: #008db1;
+  font-size: 18px;
+}
+
+.pictures{
+  width: 100%;
+  height: auto;
+
+}
+
+.service-text{
+  text-align: left;
+
+}
+
+.service-text h2{
+  font-family: "loto";
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 18px;
+}
+.service-text h1{
+  font-family: "permanent marker";
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.service-text p,#row2 .para {
+  font-family: "helvetica",sans-serif;
+  font-size: 18px;
+  margin:5% 10%;
+  text-align: justify;
+  color: #969696;
+  font-weight:100;
+
+}
+.service-text{
+  width: 75%;
+  margin: 5% 10% 15% 20%;
+}
+
+.prices_head{
+  width: 100%;
+  background-color: #444444;
+
+
+}
+.price_text{
+  margin: 10% 0 10% 25%;
+}
+.price_text h1{
+  font-family: "permanent marker";
+  font-size: 55px;
+  color:#f9f6ef;
+
+}
+
+
+#daycare_info {
+    padding: 50px;
+    display: none;
+
+}
+#boarding_info {
+    padding: 50px;
+    display: none;
+
+}
+#grooming_info {
+    padding: 50px;
+    display: none;
+
+}
+#training_info {
+    padding: 50px;
+    display: none;
+
+}
+@media only screen and (max-width: 864px) {
+  .heading h5,.heading-maia h5,.prices_head h5{
+    font-family: "loto";
+    letter-spacing: 3px;
+    color: #008db1;
+  }
+  .heading h1,.prices_head h1,.heading-maia h1,#row1 h1{
+    font-family: "permanent marker";
+    font-size: 25px !important;
+  }
+
+}
+@media only screen and (max-width: 699px){
+  .heading{
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 790px){
+  .heading-maia{
+    height: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .service-text  {
+    width: 85%;
+      margin: 5% 10% 10% 10%;
+
+  }
+  .service-text p,#row2 .para  {
+  font-size: 16px;
+
+  }
+  .prices_table h2{
+    font-family: "permanent marker";
+    font-size: 22px !important;
+  }
+
+#custom{
+  font-size: 15px;
+}
+.heading-maia h1{
+  font-family: "permanent marker";
+  font-size: 18px !important;
+}
+
+.heading-maia h5,#row1 h5{
+  font-size: 15px !important;
+}
+}
+
+
+.service-text a{
+  font-family: "loto";
+  letter-spacing: 3px;
+  color: #008db1;
+  font-size: 14px;
+}
+.prices_table h2{
+  font-family: "permanent marker";
+  font-size: 30px;
+}
+
+
+/* ******************************************VICTORIA************* */
+
+/* ***************************************HEADER************************* */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    color: black;
+}
+nav a{
+   color: black;
+
+}
+#list{
+ float:left;
+}
+footer{
+ background-color: #444444;
+ color: #f9f6ef;
+}
+footer a{
+  color: #008db1;
+  text-decoration: none;
+}
+@media only screen and (max-width: 422px) {
+ nav a{
+     font-size: 15px !important;
+
+ }
+ footer{
+   font-size: 10px;
+   min-width: 300px !important;
+ }
+}
+
+/* ****************ROBERTO************************************************ */
+/* #roberto_cont {
+    min-width: 400px;
+} */
+
+#row1 {
+    margin-top: 15%;
+    color: white;
+    width: 50%;
+}
+
+#row2 {
+    text-align: left;
+}
+
+.welcome {
+    background: url(../Images/dogo4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height:  600px;
+}
+
+.col-md-6 {
+    margin-top: 30px;
+}
+
+.indexCar {
+    margin-top: 100px;
+    height: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revName {
+    color: red;
+}
+
+.review {
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#about {
+margin-top: 65px;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.para {
+    font-family: "helvetica", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 100;
+
+}
+
+h1 {
+    font-family: "permanent marker";
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 750px) {
+    #row1 {
+        margin-top: 10%;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+   .col-md-12 {
+        margin-top: 80px;
+       max-height: 400px;
+    }
+}
+@media only screen and (max-width: 480px) {
+   .col-md-12 {
+        margin-top: 80px;
+       max-height: 325px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #about{
+        margin-top: 0;
+    }
+}
+
+/* ********************ROBERTO************************************* */
+
+
+
+/* ***********************MAIA***************************************** */
+footer {
+  background-color: #444444;
+  color: white;
+}
+
+.heading-maia{
+
+  height: 550px;
+  background-image: url("../Images/greyhound-lg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  color:#f9f6ef;
+  margin:2px;
+}
+
+
+/* .heading{
+
+  height: 550px;
+  background-image: url("../img/animal.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  color:#f9f6ef;
+  margin:2px;
+} */
+
+
+
+.heading-text-maia{
+  position: relative;
+  top:35%;
+  margin-left: 25px;
+}
+
+.heading-maia h5, h2 {
+  font-family: "loto";
+  letter-spacing: 3px;
+  color: #008db1;
+}
+.heading-maia h1{
+  font-family: "permanent marker";
+  font-size: 55px;
+}
+
+/* ***************************MAIA********************************** */
+
+
+
+/* ***************ehsan************************************* */
+
+.hedear_faq {
+    background: url("../Images/dog_faq2.jpg");
+    background-position: center;
+    padding-top: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 0px;
+  }
+  .collapse_faq {
+    margin: 45px 15px;
+  }
+
+  #haeder_heading {
+    font-family: "permanent marker";
+    font-size: 55px;
+    color: white;
+  }
+  .card button {
+    font-size: 20px;
+    font-family: 'loto', sans-serif;
+    font-weight: bold;
+    color: #008db1;
+  }
+
+  .card-body {
+    font-family: "helvetica",sans-serif;
+    font-size: 18px;
+    margin:5% 10%;
+    text-align: justify;
+    color: #969696;
+    font-weight:100;
+  }
+  .collapse_faq_betw {
+    margin: 10px 0px;
+  }
+  .btn-link:link {
+    text-decoration: none;
+  }
+  .btn-link:visited {
+    text-decoration: none;
+  }
+  .btn-link:hover {
+    text-decoration: none;
+  }
+  .btn-link:active {
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1100px) {
+      .card button{
+        font-size: 14px !important;
+      }
+  }
+/* ************************************************* */

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE bank SYSTEM "bank.dtd">
+<bank>
+  <user>
+    <name>John</name>
+    <phone type="home">555.555.5555</phone>
+    <phone type="cell">555.555.1111</phone>
+  </user>
+  <accounts>
+    <account type="checking">
+      <balance>105.50</balance>
+      <nickname />
+    </account>
+    <account type="saving">
+      <balance>2500.00</balance>
+      <nickname />
+    </account>
+  </accounts>
+</bank>

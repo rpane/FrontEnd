@@ -1,0 +1,12 @@
+/* GLOBAL STYLES do not touch this -----------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.clearfix:after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+/*    Your NAME goes here and place your css after this comment    */
+

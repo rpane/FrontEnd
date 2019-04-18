@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+  <Owner>
+    <name>Peter</name>
+    <ownersAge age="number">25</ownersAge>
+    <vehicles>
+      <make>Honda</make>
+      <model>Civic</model>
+      <trans>manual</trans>
+      <year>2015</year>
+    </vehicles>
+    <vehicles>
+      <make>Mazda</make>
+      <model>CX-9</model>
+      <trans>automatic</trans>
+      <year>2016</year>
+    </vehicles>
+  </Owner>
+  <Owner>
+    <name>Patricia</name>
+    <ownersAge age="number">47</ownersAge>
+    <vehicles>
+      <make>Ford</make>
+      <model>Fusion</model>
+      <trans>automatic</trans>
+      <year>2016</year>
+    </vehicles>
+  </Owner>
+  <Owner>
+    <name>Marie</name>
+    <ownersAge age="number">38</ownersAge>
+    <vehicles>
+      <make>Mazda</make>
+      <model>Miata</model>
+      <trans>manual</trans>
+      <year>2019</year>
+    </vehicles>
+  </Owner>
+  <Owner>
+    <name>Janet</name>
+    <ownersAge age="number">53</ownersAge>
+    <vehicles>
+      <make>Toyota</make>
+      <model>Echo</model>
+      <trans>automatic</trans>
+      <year>2003</year>
+    </vehicles>
+  </Owner>
+</cars>

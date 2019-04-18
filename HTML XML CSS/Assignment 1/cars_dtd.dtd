@@ -1,0 +1,11 @@
+<!ELEMENT cars (Owner+)>
+<!ELEMENT Owner (name,ownersAge,vehicles+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ownersAge (#PCDATA)>
+<!ELEMENT vehicles (make,model,trans,year)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT trans (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+<!ATTLIST ownersAge age CDATA "">

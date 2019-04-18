@@ -1,0 +1,112 @@
+/* GLOBAL STYLES do not touch this -----------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.clearfix:after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+/*   Roberto Panetta    */
+.profile{
+    background-color: rgba(0,0,0,0.8);
+/*
+    width: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+*/
+}
+.profile h2{
+    border: none;
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #2980b9;
+}
+.profile img{
+    float: left;
+    width: 27%;
+    margin-right: 3%;
+    border:1px solid white;
+    border-radius: 50%;
+    padding: 4%;
+}
+.work-experience{
+    background-color: #fefefc;
+}
+.skills{
+    background-color: red;
+}
+.education{
+    background-color: #fefefc;
+}
+.contact{
+    background-color: #101010;
+}
+header{
+    
+    padding-bottom: 150px;
+    padding-top: 150px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    
+}
+body{
+    font-family: "Merriweather", serif;
+    line-height: 1.5;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+}
+h1,h2,h3{
+    font-weight: 400;
+    margin: 0;
+}
+h2,h3{
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+}
+h2{
+    font-size: 32px;
+}
+.wrapper{
+    max-width:1000px;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.summary{
+    float: right;
+    width: 70%;
+    text-align: justify;
+}
+.item{
+    border-bottom:1px solid #ccc;
+}
+.item:last-child{
+    border-bottom: none;
+}
+.profile,.skills,.contact{
+    color:white;
+}
+a{
+    color: #16a085;
+}
+.summary  h2{
+    transform: skewY(-5deg);
+   
+}

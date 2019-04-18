@@ -1,0 +1,12 @@
+/*Roberto Panetta 0639300 Assignment 2 */
+body{
+    margin: 3em;
+    font-family: Times New Roman, serif;
+    font-size: 12pt;
+}
+#salebox{
+    display:none;
+}
+img{
+    display: none;
+}

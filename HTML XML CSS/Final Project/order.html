@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Order - Pete's Pizza Palace</title>
+        <!-- Roberto Panetta 0639300-->
+        <link rel="stylesheet" type="text/css" href="Style/style.css">
+    </head>
+    <body>
+        <form action="http://jac.stephmoreau.ca/0071/" method="post">
+            <img src="Images/logo.PNG" id="logo" alt="Pete's Pizza Palace">
+            <header>
+                <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="about.html">About Us</a> | 
+                    <a href="contact.html">Contact Us</a> | 
+                    <Strong>Call: 123-456-7890</Strong>
+                </nav>
+                <hr>
+                <audio autoplay loop>
+                    <source src="Audio/GenYoutube.net_Renato-carosone-Tu-Vuo-fa-lamericano_hiiUtZKhZ4E.mp3" type="audio/mp3">
+                </audio>
+            </header>
+            
+
+            <video autoplay loop title="https://www.youtube.com/watch?v=zfipUA8DN3U">
+                <source src="Video/PIZZA%20SLIDESHOW.mp4" type="video/mp4">
+                <source src="Video/PIZZA%20SLIDESHOW.webm" type="video/webm">
+                Your Browser does not support the video tag.
+            </video>
+            <section id="menu">
+                <h1>Menu</h1>
+                <table>
+                    <tr>
+                        <th>Pizzas</th>
+                        <th>Toppings</th>
+                        <th>10"</th>
+                        <th>12"</th>
+                        <th>14"</th>
+                    </tr>
+                    <tr>
+                        <td>Plain</td>
+                        <td>Cheese and tomato sauce</td>
+                        <td>6.90</td>
+                        <td>9.95</td>
+                        <td>13.70</td>
+                    </tr>
+                    <tr>
+                        <td>All-Dressed</td>
+                        <td>Cheese,tomato sauce,pepperoni,musrooms and green peppers</td>
+                        <td>8.70</td>
+                        <td>12.75</td>
+                        <td>17.25</td>
+                    </tr>
+                    <tr>
+                        <td>Jalapeno</td>
+                        <td>Cheese,tomato sauce,pepperoni,mushrooms,green peppers and jalapeno</td>
+                        <td>9.95</td>
+                        <td>14.25</td>
+                        <td>19.60</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetarian</td>
+                        <td>Cheese,tomato sauce,mushrooms,green peppers,onions,tomatoes and olives</td>
+                        <td>8.70</td>
+                        <td>12.75</td>
+                        <td>17.25</td>
+                    </tr>
+                    <tr>
+                        <td>Mexican</td>
+                        <td>Cheese,ground beef,tomatoes,jalapeno and onions</td>
+                        <td>8.70</td>
+                        <td>12.75</td>
+                        <td>17.25</td>
+                    </tr>
+                    <tr>
+                        <td>MeatLovers</td>
+                        <td>Cheese,pepperoni,ground beef,italian sausage and bacon</td>
+                        <td>10.70</td>
+                        <td>15.20</td>
+                        <td>20.95</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken</td>
+                        <td>Cheese,tomato sauce,chicken,onions and jalapenos</td>
+                        <td>9.95</td>
+                        <td>14.25</td>
+                        <td>19.60</td>
+                    </tr>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Pastas</th>
+                        <th>Sauce</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Spaghetti</td>
+                        <td>Meat</td>
+                        <td>14.25</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Tomato</td>
+                        <td>12.94</td></tr>
+                    <tr>
+                        <td>Fettucini</td>
+                        <td>Alfredo</td>
+                        <td>16.92</td>
+                    </tr>
+                    
+                    <tr>
+                        <td rowspan="2">Lasagna</td>
+                        <td>Bechamel</td>
+                        <td>16.50</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Meat</td>
+                        <td>17.50</td>
+                    </tr>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Salads</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Greek Salad</td>
+                        <td>12.50</td>
+                    </tr>
+                    <tr>
+                        <td>Chef Salad</td>
+                        <td>9.95</td>
+                    </tr>
+                    <tr>
+                        <td>Grilled Ceasar Salad</td>
+                        <td>14.50</td>
+                    </tr>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Drinks</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Brio</td>
+                        <td>3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Assorted Soft Dirnks</td>
+                        <td>2.95</td>
+                    </tr>
+                    <tr>
+                        <td>Beer</td>
+                        <td>3.75</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>2.75</td>
+                    </tr>
+                    <tr>
+                        <td>Sparkling Water</td>
+                        <td>3.75</td>
+                    </tr>
+                </table>
+
+            </section>
+            
+                <h2>Order Here!</h2>
+
+                <h3>Pizzas</h3>
+                <label for="PizzaSel">Type:</label>
+                <select name="Pizza" id="PizzaSel">
+                    <option value="NONE">-------</option>
+                    <option value="Plain">Plain</option>
+                    <option value="All-Dressed">All-Dressed</option>
+                    <option value="Jalapeno">Jalapeno</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="MeatLovers">MeatLovers</option>
+                    <option value="Chicken">Chicken</option>
+                </select>
+                <label for="PizSize">Size:</label>
+                <select name="Pizza Size" id="PizSize">
+                    <option value="NONE">---</option>
+                    <option value="10">10"</option>
+                    <option value="12">12"</option>
+                    <option value="14">14"</option>
+                </select>
+            <label for="pizQty">Qty:</label>
+            <select name="Quantity" id="pizQty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+
+                <h3>Pasta</h3>
+                <input type="radio" name="Pasta" id="noPasta" value="NONE"  checked="checked">
+                <label for="noPasta">None</label>
+                <br>
+                <input type="radio" name="Pasta" id="SpagB" value="Spaghetti Bolognese">
+                <label for="SpagB">Spaghetti Bolognese</label>
+                <br>
+                <input type="radio" name="Pasta" id="Fett" value="Fettucini Alfredo">
+                <label for="Fett">Fettucini Alfredo</label>
+                <br>
+                <input type="radio" name="Pasta" id="SpagT" value="Spaghetti Tomato">
+                <label for="SpagT">Spaghetti Tomato</label>
+                <br>
+                <input type="radio" name="Pasta" id="LasBech" value="Lasagna Bechamel">
+                <label for="LasBech">Lasagna Bechamel</label>
+                <br>
+                <input type="radio" name="Pasta" id="LasMeat" value="Lasagna Meat">
+                <label for="LasMeat">Lasagna Meat</label>
+
+                <h3>Salads</h3>
+                <input type="radio" name="Salad" id="NoSal" Value="NONE" checked="checked">
+                <label for="NoSal">None</label>
+                <br>
+                <input type="radio" name="Salad" id="GSal" Value="Greek Salad">
+                <label for="GSal">Greek Salad</label>
+                <br>
+                <input type="radio" name="Salad" id="CSal" Value="Chef Salad">
+                <label for="CSal">Chef Salad</label>
+                <br>
+                <input type="radio" name="Salad" id="GCSal" Value="Ceasar Salad">
+                <label for="GCSal">Grilled Ceasar Salad</label>
+
+                <h3>Drinks</h3>
+                <input type="radio" name="Drink" id="NoDrink" Value="NONE" checked="checked">
+                <label for="NoDrink">None</label>
+                <br>
+                <input type="radio" name="Drink" id="brioD" Value="Brio">
+                <label for="brioD">Brio</label>
+                <br>
+                <input type="radio" name="Drink" id="softD" Value="Soft Drink">
+                <label for="softD">Assorted Soft Drink</label>
+                <br>
+                <input type="radio" name="Drink" id="beer" Value="Beer">
+                <label for="beer">Beer</label>
+                <br>
+                <input type="radio" name="Drink" id="BotWat" Value="Bottled Water">
+                <label for="BotWat">Bottled Water</label>
+                <br>
+                <input type="radio" name="Drink" id="sparkWat" Value="Sparkling Water">
+                <label for="sparkWat">Sparkling Water</label>
+
+                <h3>Instructions or Comments</h3>
+                <textarea cols="40" rows="10" placeholder="Enter Text Here" name="Instructions"></textarea>
+                <br>
+                <fieldset>
+                    <legend> Delivery Address</legend>
+                    <label for="CFname">First Name: </label>
+                    <input type="text" name="FName" id="CFname" required>
+                    <br>
+                    <label for="CLname">Last Name: </label>
+                    <input type="text" name="LName" id="CLname" required>
+                    <br>
+                    <label for="CPhone">Phone Number: </label>
+                    <input type="tel" name="CPhone" id="CPhone" required>
+                    <br>
+                    <label for="CStreet">Street Address: </label>
+                    <input type="text" name="Street" id="CStreet" required>
+                    <br>
+                    <label for="CPost">Postal Code: </label>
+                    <input type="text" name="Postal Code" id="CPost" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Payment</legend>
+                    <label for="credC">Credit Card Number: </label>
+                    <input type="number" name="CreditCard" id="credC" required>
+                    <br>
+                    <label for="credCExp">Exp. Date: </label>
+                    <input type="month" name="exp.date" id="credCExp" required>
+                    <br>
+                    <label for="CCVV">CVV: </label>
+                    <input type="number" name="CVV" id="CCVV" required>
+                </fieldset>
+               <br>
+                <input type="hidden" name="Location" value="3044">
+                <input type= "submit">
+                <input type="reset">
+            
+        </form>
+        <br>
+        <footer>
+            
+            <small>&copy; Copyright 2018 Pete's Pizza Palace | All rights reserved | Design Roberto Panetta </small>
+        </footer>
+    </body>
+</html>

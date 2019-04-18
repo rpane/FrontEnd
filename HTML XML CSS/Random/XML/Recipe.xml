@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE recipe [
+  <!ELEMENT recipe (name, description, ingredients, instructions)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT ingredients (ingredient+)>
+  <!ELEMENT ingredient (name,qty+)>
+  <!ELEMENT qty (#PCDATA)>
+  <!ELEMENT instructions (step+)>
+  <!ELEMENT step (#PCDATA)>
+
+  <!ATTLIST qty unit CDATA "">
+  <!ATTLIST step number CDATA "">
+
+  <!ENTITY flavor "Good">
+]>
+<recipe>
+  <name>Cantonese Chow Mein</name>
+  <description>Mixed vegetable and meat on a bed of crispy noodles</description>
+
+  <ingredients>
+    <ingredient>
+      <name>Noodles></name>
+      <qty unit="Sheets">2</qty>
+    </ingredient>
+    <ingredient>
+      <name>Pork</name>
+      <qty unit="Chops">2</qty>
+    </ingredient>
+    <ingredient>
+      <name>Baby Corn</name>
+      <qty unit="Cups">2</qty>
+    </ingredient>
+    <ingredient>
+      <name>Chicken</name>
+      <qty unit="Cups">3</qty>
+    </ingredient>
+    <ingredient>
+      <name>Carrots</name>
+      <qty unit="Cups">1</qty>
+    </ingredient>
+  </ingredients>
+  <instructions>
+    <step number="1">Preheat Wok</step>
+    <step number="2">Add Oil to Wok</step>
+    <step number="3">Add in your chicken &amp; Pork</step>
+    <step number="4">Drissel soy &amp; seasame Oil</step>
+    <step number="5">Add in your Carrots &amp; Baby Corn once meat is cooked</step>
+    <step number="6">&flavor;, Serve &amp; Enjoy</step>
+    <step number="7">
+      <![CDATA[ Preheat Wok & ]]>
+    </step>
+  </instructions>
+</recipe>

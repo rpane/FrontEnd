@@ -1,0 +1,108 @@
+/*Roberto Panetta 0639300 Assignment 2 */
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 775px;
+    margin-left: 100px;
+    font-family: "Lucida Sans Unicode", helvetica, sans-serif;
+    background-color: #0639ee;
+    font-size: 11pt;
+    color: navy;
+    height: 900px;
+}
+header{
+    width: 765px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    background-image: url(../images/keys.jpg);
+    background-repeat: repeat-x;
+    background-color: white;
+    border: thick solid navy;
+}
+header p{
+    margin-top: 0;
+    text-align: center;
+}
+aside{
+    border:thick inset red;
+    padding: .5em;
+    padding-left: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    background-image: url(../images/curtains.jpg);
+    background-repeat: no-repeat;
+}
+aside h3{
+    width: 250px;
+    text-align: center;
+    color: white;
+    background-color: navy;
+    padding:.2em 1em .2em 1em;
+}
+aside h3+p{
+    text-align: center;
+}
+#salebox{
+   position: absolute;
+    top: 2px;
+    left: 105px;
+    height: 100px;
+    width: 140px;
+    overflow: auto;
+
+}
+#salebox > p{
+    color: orange;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 5px;
+}
+article{
+    width: 420px;
+    float: right;
+    margin-bottom: 80px;
+}
+article h2{
+    text-align: center;
+    color: white;
+    background-color: navy;
+    font-family: "Arial black", sans-serif;
+    height: 60px;
+    padding: .3em;
+    margin-top: 0;
+}
+article h3{
+    color: white;
+    text-align: center;
+    background-color: red;
+    padding: .5em;
+    margin: 0;
+}
+article p{
+    padding-right: 1em;
+}
+footer{
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    word-spacing: .2em;
+    border:thin inset navy;
+    width: 100%;
+    margin-left: -100px;
+    margin-top: .5em;
+    padding: .5em;
+    padding-left: 100px;
+
+}

@@ -1,0 +1,96 @@
+.indexCont{
+    min-width: 400px;
+}
+
+#indexRow1 {
+    margin-top: 20%;
+    color: white;
+}
+
+#indexRow2 {
+    text-align: left;
+}
+
+.indexWelcome {
+    background: url(../Images/dogo4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+}
+
+.aboutSec {
+    margin-top: 30px;
+}
+
+.indexCar {
+    margin-top: 100px;
+    height: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revName {
+    color: red;
+}
+
+.review {
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#about {
+margin-top: 65px;
+    height: auto;
+    width: 100%;
+}
+
+.indexFooter {
+    background-color: #444444;
+    color: white;
+    min-width: 400px;
+}
+
+.indexPara {
+    font-family: "helvetica", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 100;
+
+}
+
+.indexHead {
+    font-family: "permanent marker";
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 750px) {
+    #indexRow1 {
+        margin-top: 225px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+   .indexWelcome {
+        margin-top: 80px;
+       max-height: 400px;
+    }
+}
+@media only screen and (max-width: 480px) {
+   .indexWelcome {
+       margin-top: 80px;
+       max-height: 325px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #about{
+        margin-top: 0;
+    }
+}
+

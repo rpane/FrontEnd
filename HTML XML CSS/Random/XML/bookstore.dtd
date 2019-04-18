@@ -1,0 +1,9 @@
+<!ELEMENT bookstore (book+) >
+<!ELEMENT book (title,price,comments?) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT price (#PCDATA) >
+<!ELEMENT comments (userComment+) >
+<!ELEMENT userComment (#PCDATA) >
+
+<!ATTLIST book ISBN CDATA "">
+<!ATTLIST userComment rating (1|2|3|4)  "1" >

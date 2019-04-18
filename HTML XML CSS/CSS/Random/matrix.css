@@ -1,0 +1,72 @@
+body {
+    margin: 50px;
+    padding: 0;
+    color: dodgerblue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*
+div.container div{
+  height:300px;
+  width:300px;
+  position: fixed;
+}
+
+.container .red {
+    background: red;
+    border: 2px solid green;
+}
+
+.container .yellow {
+    background: yellow;
+    transform: rotate(45deg) scale(.7);
+}
+
+.container .blue {
+    background: blue;
+    transform: scale(.4)
+}
+
+.container .blue.rotate {
+    transform: rotate(45deg) scale(.4);
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.container .blue.rotate:hover{
+    background: green;
+ 
+}
+*/
+
+.blueBall{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: blue;
+    transition-property: transform;
+    transition-duration: 2s;
+    text-align: center
+
+}
+.yellowBall{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background: yellow;
+    margin-left: 350px;
+    margin-top: -100px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-delay: .5s;
+    text-align: center
+}
+.blueBall:hover{
+    transform: translate(195px) rotate(360deg);
+    
+}
+div:hover + div{
+    transform: translate(300px) rotate(360deg);
+}

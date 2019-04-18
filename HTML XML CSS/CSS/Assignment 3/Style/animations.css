@@ -1,0 +1,276 @@
+/* GENERAL STYLES
+----------------------------------*/
+
+body {
+    background: #ecf0f1;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+
+/* TYPOGRAPHY STYLES
+---------------------------------*/
+
+@font-face {
+    font-family: "blueocean";
+    src: url(../Fonts/blueocean.ttf);
+}
+
+header {
+    height: 90px;
+}
+
+h1 {
+    display: block;
+    font-family: "blueocean", cursive;
+    font-size: 90px;
+    font-weight: normal;
+    color: dodgerblue;
+}
+
+
+/* TARGET SECTION STYLES (ALL)
+-----------------------------------*/
+
+form {
+    animation-name: move;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+label {
+    background: red;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 15px #000000, inset 0 0 0 30px #ffffff;
+    /* css trick: double border */
+}
+
+input:checked + label {
+    transform: rotateX(70deg);
+}
+
+/*TIMER BAR STYLES
+--------------------------------*/
+
+#timer {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+
+}
+
+#timer {
+    animation: timer 9s 1s 1 linear reverse forwards;
+}
+
+/*WAVES IN BACKGROUND STYLES
+---------------------------------*/
+
+#wave1 {
+    animation-name: slideleft;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#wave1 {
+    padding-top: 360px;
+    top: 20%;
+    position: absolute;
+    background-image: url(../Images/waves.png);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 170px;
+}
+
+#wave2 {
+    animation-name: slideright;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#wave2 {
+    padding-top: 250px;
+    top: 30%;
+    position: absolute;
+    background-image: url(../Images/waves2.png);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 170px;
+
+}
+
+#wave3 {
+    animation-name: slideleft;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#wave3 {
+    padding-top: 250px;
+    top: 40%;
+    position: absolute;
+    background-image: url(../Images/waves2.png);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 170px;
+}
+
+#wave4 {
+    animation-name: slideright;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#wave4 {
+    padding-top: 250px;
+    top: 50%;
+    position: absolute;
+    background-image: url(../Images/waves2.png);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 170px;
+}
+
+#wave5 {
+    animation-name: slideleft;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+#wave5 {
+    padding-top: 250px;
+    top: 60%;
+    position: absolute;
+    background-image: url(../Images/waves2.png);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 170px;
+}
+
+/* INDIVIDUAL TARGET STYLES
+change the size, shape, background, add more, etc
+---------------------------------*/
+
+label:first-of-type {
+    width: 80px;
+    padding-bottom: 80px;
+    left: 0;
+}
+
+label:nth-of-type(2) {
+    width: 90px;
+    padding-bottom: 90px;
+    left: 5%;
+}
+
+label:nth-of-type(3) {
+    width: 75px;
+    padding-bottom: 75px;
+    left: 10%;
+}
+
+label:nth-of-type(4) {
+    width: 80px;
+    padding-bottom: 80px;
+    left: 15%;
+}
+
+label:nth-of-type(5) {
+    width: 90px;
+    padding-bottom: 90px;
+    left: 20%;
+}
+
+label:nth-of-type(6) {
+    width: 80px;
+    padding-bottom: 80px;
+    left: 25%;
+}
+
+label:nth-of-type(7) {
+    width: 65px;
+    padding-bottom: 65px;
+    left: 30%;
+}
+
+label:nth-of-type(8) {
+    width: 80px;
+    padding-bottom: 80px;
+    left: 35%;
+}
+
+label:nth-of-type(9) {
+    width: 100px;
+    padding-bottom: 100px;
+    left: 40%;
+}
+
+label:nth-of-type(10) {
+    width: 65px;
+    padding-bottom: 65px;
+    left: 45%;
+}
+
+label:nth-of-type(11) {
+    width: 85px;
+    padding-bottom: 85px;
+    left: 50%;
+}
+
+
+
+/* CSS ANIMATION KEYFRAME TO MOVE TARGETS AND WATER
+---------------------------------*/
+
+@keyframes move {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: 1500px;
+    }
+}
+
+@keyframes slideright {
+    from {
+        background-position: 1500px;
+    }
+    to {
+        background-position: 0px;
+    }
+}
+
+@keyframes timer {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}

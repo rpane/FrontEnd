@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<bookstore>
+  <book ISBN="12315464">
+    <title>Starwars: The Last Jedi</title>
+    <price>39.95</price>
+    <comments>
+      <userComment rating="1"></userComment>
+    </comments>
+  </book>
+  <book ISBN="131846413132">
+    <title>Indiana Jones</title>
+    <price>34.95</price>
+    <comments>
+      <userComment rating="3"></userComment>
+    </comments>
+  </book>
+  <book ISBN="213184561321">
+    <title>Silence of the Lambs</title>
+    <price>19.95</price>
+    <comments>
+      <userComment rating="4"></userComment>
+    </comments>
+  </book>
+  <book ISBN="231654641231">
+    <title>Lord of the Rings</title>
+    <price>25.95</price>
+    <comments>
+      <userComment rating="4"></userComment>
+    </comments>
+  </book>
+</bookstore>

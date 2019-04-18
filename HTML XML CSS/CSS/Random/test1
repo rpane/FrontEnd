@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>CSS Test </title>
+<link rel="stylesheet" type="text/css" href="test1.css" />
+</head>
+<body>
+<header id="top">
+<h1>Today's News</h1>
+</header>
+<article class="main_art">
+<h3>Lottery <span>Winner</span></h3>
+<span>Joe<span> Dirt</span></span>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus neque rutrum nibh ullamcorper rutrum. Donec sed dui arcu. In eleifend purus nisl, sit amet tincidunt turpis maximus a. Curabitur fermentum eros vel euismod ornare. Donec vel ornare massa. Aenean mollis quam non arcu bibendum, sed fermentum ante venenatis. Nam at sem vel lectus rutrum commodo vel nec orci.
+</p>
+</article>
+<article>
+<h3>Shark Attack</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus neque rutrum nibh ullamcorper rutrum. Donec sed dui arcu. In eleifend purus nisl, sit amet tincidunt turpis maximus a. Curabitur fermentum eros vel euismod ornare. Donec vel ornare massa. Aenean mollis quam non arcu bibendum, sed fermentum ante venenatis. Nam at sem vel lectus rutrum commodo vel nec orci.
+</p>
+</article>
+<article>
+<h3>Paintings Found</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus neque rutrum nibh ullamcorper rutrum. Donec sed dui arcu. In eleifend purus nisl, sit amet tincidunt turpis maximus a. Curabitur fermentum eros vel euismod ornare. Donec vel ornare massa. Aenean mollis quam non arcu bibendum, sed fermentum ante venenatis. Nam at sem vel lectus rutrum commodo vel nec orci.
+</p>
+</article>
+</body>
+</html>

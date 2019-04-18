@@ -1,0 +1,34 @@
+html{
+  background: lightslategrey;
+}
+body {
+  background-color: dodgerblue;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 5px outset Orange;
+  padding: 10px;
+  font-family: sans-serif;
+}
+header{
+  border:3px outset Orange;
+  margin-left:5%;
+  margin-right:5%;
+  padding:5px;
+  margin-bottom: 5%;
+  color:Coral;
+  text-align: center;
+  font-family:sans-serif;
+}
+table,td,th,tr{
+  border:2px solid black;
+}
+
+/*#MainMen{
+  border:3px outset Orange;
+}
+  #BotMainMen{
+  }
+*/
+#subMen{
+  text-align:center;
+}

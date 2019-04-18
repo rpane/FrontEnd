@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Lobster font imported in <head> of my html file */
+@font-face {
+  font-family: Tomatoes;
+  src: url(../fonts/tomatoes.ttf);
+}
+@font-face {
+  font-family: Dead;
+  src: url(../fonts/From_the_Dead.ttf);
+}
+body {
+  font-family: "Open Sans", "Verdana", sans-serif;
+  color:white
+
+}
+body{
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+h1 {
+  font: 55px Dead, fantasy;
+  text-shadow: 10px -10px 2px rgba(0,45,73,.2);
+  background: lightpink url("http://www.sewscrumptious.com/image/cache/data/products/gift-wrap-box-70x70.png") right center  no-repeat;
+
+}
+#top{
+
+    border-bottom:5px solid red;
+}
+
+section header, aside header {
+  color: white;
+  font: 20px Tomatoes, cursive;
+  text-shadow: 0 0 10px orange;
+}
+
+h3 {
+  color: #f47c0c;
+  font-family: Lobster, cursive;
+
+}
+h3 >span{
+  border-left:5px solid green;
+  border-right:5px solid green;
+}
+img{
+  border: 5px double red;
+}
+.news p {
+  font: normal 14px / 2 "Open Sans", "Verdana", sans-serif;
+  text-indent: 20px;
+
+}
+*{
+  margin: 0;
+}
+.main_article#article_1{
+  border: 5px solid red;
+}
+article:not(.sidenews) h3::before{
+  content: "*";
+}
+p::first-line{
+  color: red;
+}
+article:not(.main_article) h3 + span{
+  color: yellow;
+}
+a:link{
+  color:yellow;
+}
+a:visited{
+  color:green;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color:orange;
+}
+li:nth-child(0){
+  color:red;
+}
+nav li{
+  display: inline;
+}
+nav li::after
+{
+  content:"|";
+  margin: 0 20px;
+}
+nav li:last-child::after{
+  content: "";
+}
+aside li{
+  list-style-position: inside;
+  list-style-image: url(Capture.png);
+}aside dt{
+  float: left;
+  margin-right: 20px;
+}
+@media only print{
+  img{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+
+}
+
+/* Generic Font Families */
+/* .font-serif { font-family: serif;}
+.font-sans-serif { font-family: sans-serif;}
+.font-cursive { font-family: cursive;}
+.font-fantasy { font-family: fantasy;}
+.font-monospace { font-family: monospace;} */
+
+/* Colors */
+/* .color-named {color:orange; }
+.color-hex { color: #00FF22; }
+.color-hex-short { color: #01F; }
+.color-rgba { color: rgba(0, 255, 34, .5);}
+.color-rgba { color: rgba(0, 255, 34, .5);}
+.color-hsl { color: hsl(90, 50%, 50%);}
+.color-hsla { color: hsl(90, 50%, 50%);} */
+
+/* Combining Selectors */
+/* .main_article.news { background-color:red;} */
+
+/* Multiple selectors */
+/* h1, .article, p { border: 3px solid orange;} */
+
+/* Attribute selector */
+/* [title="John Doe"]{
+  border: 5px solid yellow;
+} */
+
+/* Adjacent Siblings */
+/* h3 + span { border: 2px solid blue;} */
+
+/* General Siblings */
+/* h3 ~ span { border: 2px solid red;} */
+
+/* Direct Decendants */
+/* .main_article > span{ border:1px solid blue;} */
+
+/* Decendants */
+/* .main_article span{ border:1px solid red;} */
+
+/* ID Selector */
+/* #top{ background-color:black; color:white;} */
+
+/* Class selector */
+/* .main_article { background-color:blue;} */
+
+/* Element Selector */
+/* h1 { color:red; } */
+
+
+/* end of CSS document*/

@@ -1,0 +1,12 @@
+
+<!ELEMENT bank (user,accounts)>
+<!ELEMENT user (name,phone+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT accounts (account+)>
+<!ELEMENT account (balance, nickname)>
+<!ELEMENT balance (#PCDATA)>
+<!ELEMENT nickname EMPTY>
+
+<!ATTLIST phone type CDATA "">
+<!ATTLIST account type CDATA "">
